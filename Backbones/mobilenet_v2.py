@@ -24,7 +24,7 @@ def inverted_res_block(inputs, expansion, out_channels,
     in_channels = inputs.shape[-1]
 
     if expansion != 1:
-        # 1x1 conv2d, ReLU6 -> expansion
+    # 1x1 conv2d, ReLU6 -> expansion
         x = layers.Conv2D(in_channels * expansion, 
                         kernel_size=1, padding='same', 
                         use_bias=False)(inputs)
