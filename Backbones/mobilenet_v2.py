@@ -6,7 +6,7 @@ This file contains building code for MobileNetV2, based on MobileNetV2:
 
 and retranslates old
 [mobilenet_v2_keras](https://github.com/JonathanCMitchell/mobilenet_v2_keras)
-keras code into tensorflow version 2.4.1 foramt. 
+keras code into tensorflow version 2.4.1 format. 
 """
 
 import os
