@@ -18,7 +18,6 @@ import tensorflow.keras.backend as K
 import tensorflow.keras.layers as layers
 import tensorflow.keras.layers.Add as Add
 
-from tensorflow.keras.applications.imagenet_utils import _obtain_input_shape
 
 def inverted_res_block(inputs, expansion, out_channels,  
                        stride, block_id):
